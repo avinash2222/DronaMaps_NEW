@@ -150,8 +150,8 @@ background-color: rgba(0, 0, 0, 0.658);
 
 .logo1 {
     background-image: url("./../source/image/icon/Bw.png");
-    width: 300px;
-    height: 140px;
+    width: 200px;
+    height: 60px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -286,7 +286,7 @@ background-color: rgba(0, 0, 0, 0.658);
 }
 
 .AP{
-    width: 65%;
+    width: 90%;
 }
 
  .Sap{
