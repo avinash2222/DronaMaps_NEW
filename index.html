@@ -21,6 +21,20 @@
      <link rel="stylesheet" href="./stylesheet/index_2_style.css">
       <link rel="stylesheet" href="./stylesheet/fonts.css">
       <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
+	  
+	  <style>
+			#header {
+				color: black;
+
+				.navigation {
+					font-size: 12px;
+				}
+
+				.logo {
+					width: 300px;
+				}
+			}
+		</style>
 
       <title>DronaMaps</title>
     <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
@@ -211,23 +225,44 @@
                 </video>
             </div>
 
-            <div class="carousel-inner">
+            <!------------------------------------------ sketchfab section modified as text getting disappeared while considering mobile size window------------------------------------------------------------------>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://sketchfab.com/models/3b8bdb7c457e4704a2a11a68ee64fc46/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+					</iframe>   
+                    </div>
+				</div>
+				<div class="desc col-sm-6" >
+					
+					<span style="display: inline-block">
+						<p class="text-center">
+							Use our recommendation engine to plan your flight and
+							ground control points for desired map accuracy and resolution.
+							We are an enterprise platform to help drone users extract analytics from
+							imagery captured through drones. We provide recommendation engines for planning flights and
+							applying ground control points
+						</p>
+					</span>
+					<button type="button" class="knowmore">
+                        <span class="go" style="position:absolute; display: block"></span>
+                        <span style="" class="bold rem12 knowmore_text">Know more</span>
+                        <span class="text_opa bold rem12">Know more</span>
+                    </button>
+					
+				</div>
+			</div>
+			<!-------------------------------------------------------------------------------------------- Modified section end ------------------------------------------------------------------------------------------------->
+			<!--
+				
+				 <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <!--
-                        PREFLIGHT
-                    -->
-                    <!--
-                    <div class="carousel-caption">
-                        <h1>Preflight Recommendation</h1>
-                    </div>
-                -->
-                    <div class="info container-fluid " id="preflight">
+                    
+                    <div class="row info container-fluid " id="preflight">
                         <div class="col-12 justify-content-center row" style="display: flex">
                             <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <!--
-                                <img src="./source/image/preflight_icon.png" alt="Preflight_Icon" class="image">
-                                -->
+                                
                                 <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/3b8bdb7c457e4704a2a11a68ee64fc46/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
                                     <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
@@ -239,9 +274,7 @@
                             </div>
                             <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                                <!--<div class="H_theme_line_2">
-
-                                </div>-->
+                                
                                 <span style="display: inline-block">
                                     <p class="quote">
                                         Use our recommendation engine to plan your flight and
@@ -251,7 +284,7 @@
                                         applying ground control points
                                     </p>
                                 </span>
-                                <!--Floating Button on boundary-->
+                               
                                 <button type="button" class="knowmore">
                                     <span class="go" style="position:absolute; display: block"></span>
                                     <span style="" class="bold rem12 knowmore_text">Know more</span>
@@ -262,22 +295,16 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="carousel-item">
-                    <!--
-                        RECONSTRUCTION
-                    -->
-                <!--
-                        <div class="carousel-caption">
-                        <h1>Reconstruction</h1>
-                        </div>
-                -->
+				<div class="carousel-item">
+                   
                     <div class="info container-fluid" id="reconstruction">
                         <div class="col-12 justify-content-center row" style="display: flex">
                         <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <!--<img src="./source/image/Reconstruction_icon.png" alt="Reconstruction_Icon" class="image1">-->
-                            <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/9c994d911d844bf3b23dc3e2d8ecd6ca/embed?autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                           
+                            <div class="sketchfab-embed-wrapper">
+							<iframe width="640" height="480" src="https://sketchfab.com/models/9c994d911d844bf3b23dc3e2d8ecd6ca/embed?autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" 
+							frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+							</iframe>
 
                                 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
                                     <a href="https://sketchfab.com/3d-models/3-point-cloud-9c994d911d844bf3b23dc3e2d8ecd6ca?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">3 Point Cloud</a>
@@ -287,11 +314,7 @@
                             </div>
                         </div>
                         <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <!--Floating Button on boundary-->
-
-                            <!--<div class="H_theme_line_2">
-
-                            </div>-->
+                            
                             <span style="display: inline-block">
                                 <p class="quote">
                                     We streamline the process of image reconstruction by applying deep learning
@@ -312,20 +335,11 @@
 
 
                 <div class="carousel-item">
-                    <!--
-                ANALYTICS
-            -->
-                <!--
-                    <div class="carousel-caption">
-                        <h1>Analytics</h1>
-                    </div>
-                -->
+                   
                     <div class="info container-fluid" id="analytics">
                         <div class="col-12 justify-content-center row" style="display: flex">
                             <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <!--
-                                <img src="./source/image/Analytics_icon4.png" alt="Analytics_Icon" class="image">
-                                -->
+                                
                                 <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/93760d8297264eb184e5c3df52142d00/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
                                     <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
@@ -337,9 +351,7 @@
                             </div>
                             <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                                <!--<div class="H_theme_line_2">
-
-                                </div>-->
+                                
                                 <span style="display: inline-block">
                                     <p class="quote">
                                         We have massive experience in large-scale mapping and we learned that
@@ -350,7 +362,7 @@
                                         (plot boundaries, roads, land use patterns etc) and precision agriculture (plant count and health).
                                     </p>
                                 </span>
-                                <!--Floating Button on boundary-->
+                               
                                 <div class="knowmoresetag">
                                     <button type="button" class="knowmore">
                                         <span class="go" style="position:absolute; display: block"></span>
@@ -368,7 +380,11 @@
                     </div>
                 </div>
 
+
+                
             </div>
+			
+			-->
         </div>
     </div>
 
@@ -447,7 +463,7 @@
                     <div class="carousel-item active"  >
                         <div class="card-deck">
                             <div class="card">
-                                <img src="./source/image/Medium_ (1).png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Smart Cities</h5>
@@ -455,7 +471,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_ (2)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Drona Farms</h5>
@@ -463,7 +479,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_(3)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3_1_UOOdpVEFsW.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Urban Planning</h5>
@@ -471,7 +487,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/smart_village.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/smart_village_ZXhcUIjDIQ.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/mapping-the-digital-groundwork-for-the-smart-villages-of-india-465e0a54bc69" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Smart Villages</h5>
@@ -479,7 +495,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Ayodhya.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Ayodhya_Hr52pD_dfu.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/ayodhya-3million-people-3-days-7c299c371d8c" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Ayodhya</h5>
@@ -491,7 +507,7 @@
                     <div class="carousel-item" >
                         <div class="card-deck">
                             <div class="card">
-                                <img src="./source/image/polavaram.webp" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/polavaram_dWE7_6RaCW.gif" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/using-drones-to-reimagine-rehabilitation-and-resettlement-polavaram-dam-33acad99affc" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Rehabilitation and Resettlement</h5>
@@ -499,7 +515,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_ (1).png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Smart Cities</h5>
@@ -507,7 +523,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_ (2)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Drona Farms</h5>
@@ -515,7 +531,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_(3)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3__aP44cA1TB1.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Urban Planning</h5>
@@ -523,7 +539,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/smart_village.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/smart_village_ZXhcUIjDIQ.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/mapping-the-digital-groundwork-for-the-smart-villages-of-india-465e0a54bc69" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Smart Villages</h5>
@@ -535,7 +551,7 @@
                     <div class="carousel-item" >
                         <div class="card-deck">
                             <div class="card">
-                                <img src="./source/image/Ayodhya.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Ayodhya_Hr52pD_dfu.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/ayodhya-3million-people-3-days-7c299c371d8c" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Ayodhya</h5>
@@ -543,7 +559,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/polavaram.gif" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/polavaram_dWE7_6RaCW.gif" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/using-drones-to-reimagine-rehabilitation-and-resettlement-polavaram-dam-33acad99affc" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Rehabilitation and Resettlement</h5>
@@ -551,7 +567,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_ (1).png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Smart Cities</h5>
@@ -559,7 +575,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_ (2)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Drona Farms</h5>
@@ -567,7 +583,7 @@
                                 </a>
                             </div>
                             <div class="card">
-                                <img src="./source/image/Medium_(3)1.png" class="card-img-top" alt="...">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3__aP44cA1TB1.jpg" class="card-img-top" alt="...">
                                 <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title" style="color:white;">Urban Planning</h5>
