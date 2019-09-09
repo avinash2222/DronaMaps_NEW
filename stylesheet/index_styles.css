@@ -62,7 +62,7 @@ width: 100%;
     background-size: 100%;
     background-position: 50%;
     */
-    background: linear-gradient(to left ,rgba(255,255,255,0)65%,rgba(0,0,0,0.5)100%), url("./../source/image/background/noir_V3.png");
+    background: linear-gradient(to left ,rgba(255,255,255,0)65%,rgba(0,0,0,0.5)100%), url("https://ik.imagekit.io/1tz106e4j/source/image/background/noir_V3_wik-DVBE6o.png");
     /*background: radial-gradient(circle at left bottom,rgba(0,0,0,0.65)0%,rgba(255,255,255,0)70%), url("./../source/image/background/noir.png");*/
     background-repeat: no-repeat;
     background-size: contain , cover;
@@ -106,7 +106,7 @@ width: 100%;
     top: 0;
     width: 100vw ;
     height: 100vh;
-    background-image: url("./../source/image/background/coloredShadow_m5.png");
+    background-image: url("https://ik.imagekit.io/1tz106e4j/source/image/background/coloredShadow_m5_uM8qaQBSj.png");
     background-repeat: no-repeat;
     max-width: 2774px;
     background-size:  cover, contain;
@@ -139,7 +139,7 @@ width: 100%;
     max-height: 100%;
     min-height: 100%;
     /*background: radial-gradient(circle at 50% 25%, rgba(0,0,0,0.98) 0%,rgba(44, 44, 44,0.95) 100%), url('../source/Svg/Contours.svg') no-repeat;*/
-    background: linear-gradient(to bottom right, rgba(0,0,0,0.93) 200%,transparent 250%),url('../source/Svg/Contours3.svg') no-repeat;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.93) 200%,transparent 250%),url('https://ik.imagekit.io/1tz106e4j/source/Svg/Contours3_kMJsHHwbE-.png') no-repeat;
 
     background-size: contain, cover;
 }
