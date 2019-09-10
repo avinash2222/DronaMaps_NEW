@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+body{
+    font-family: 'Poiret One',monospace;
+    font-size: 1.18rem;
+}
+.headfont{
+    font-family: 'Raleway',serif;
+    font-weight: 200;
+    font-size: 2.16rem;
+}
+.headfont1{
+    font-family: 'Orbitron',sans-serif;
+    font-size: 3.16rem;
+}
+.headfont2{
+    font-family: 'Allerta Stencil',sans-serif;
+    font-size: 3.16rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.rem12{
+    font-size: 1.1rem;
+}

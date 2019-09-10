@@ -1,0 +1,138 @@
+
+.padding{
+    padding-bottom: 0;
+}
+.Page_title_cont
+{
+    background: gray;
+    height: 91.5vh;
+    width: 100vw;
+
+}
+
+.image1{
+    position: absolute;
+    background: linear-gradient(to left, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.4)100%), url('../source/image/recomm.PNG');
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-size: 100% ,cover, contain ;
+    animation: image1_move 15s ease infinite;
+}
+.image2{
+    position: absolute;
+    background: linear-gradient(to left, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.4)100%), url('../source/image/elevation_recomm.PNG');
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    background-size: 100% ,cover, contain ;
+    /*transform: rotateY(180deg);*/
+    animation: image2_move 15s ease infinite;
+}
+.image3{
+    position: absolute;
+    background: linear-gradient(to left, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.4)100%), url('../source/image/flight_plan.png');
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-size: 100% ,cover, contain ;
+    animation: image3_move 15s ease infinite;
+}
+
+.Page_title
+{
+    /*background: radial-gradient(circle at 0% 75%, transparent 0%, rgba(0,0,0,1) 80%, transparent 100%);*/
+    background: transparent;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    left: 0%;
+    top: 30%;
+    z-index: 4;
+}
+.Page_title > h2{
+    position: relative;
+    text-align: center;
+    font-size: 3.16rem;
+}
+
+.Page_title > p{
+    position: relative;
+    text-align: center;
+    font-size: 2.16rem;
+}
+
+.padding-top
+{
+    margin-top: 2rem;
+}
+
+.card-img-top{
+    height: 30vh;
+}
+
+.characteristics {
+    background: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    left: 0%;
+    top: 60%;
+    z-index: 4;
+    font-size: 1.5rem;
+    margin: 2%;
+}
+
+
+
+.characteristics > div{
+    justify-content: center;
+    align-content: center;
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 20%;
+    text-align: center;
+}
+
+.characteristics > div >img{
+    width: 30%;
+    display: block;
+    margin-bottom: 5%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@keyframes image1_move {
+    0% {opacity: 1;}
+    33% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+@keyframes image2_move {
+    0% {opacity: 0;}
+    33% {opacity: 1;}
+    66% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+
+@keyframes image3_move {
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    66% {opacity: 1;}
+    100% {opacity: 0;}
+
+}

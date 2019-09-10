@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 55%;
+}
+
+.Page_title_cont
+{
+    background: grey;
+    background-size: cover, contain;
+    height: 91.5vh;
+    background: linear-gradient(to left, rgba(0,0,0,0.4)0%,rgba(0,0,0,0.4)100%), url("../source/image/Contact us/one.jpg");
+    background-repeat: no-repeat;/*
+    background-size: contain , cover;*/
+    background-size: 150%;
+    background-position: center;
+    width: 100vw;
+}
+
+
+.Page_title
+{
+    /*background: radial-gradient(circle at 0% 75%, transparent 0%, rgba(0,0,0,1) 80%, transparent 100%);*/
+    background: transparent;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px; 
+    width: 100%;
+    left: 0%;
+    top: 10%;
+    z-index: 4;
+}
+
+.Page_title > h2{
+    position: relative;
+    text-align: center;
+    font-size: 3.16rem;
+}
+
+.Page_title > p{
+    position: relative;
+    margin-top: 11%;
+    text-align: center;
+    font-size: 7.8rem;
+}
+.padding-top
+{
+    margin-top: 2rem;
+}
+
