@@ -70,14 +70,23 @@ width: 100%;
     height: 100vh;
     color: white;
 }
-
+.hidden_desc{
+  
+  width:100%;
+  padding:50px;
+  box-shadow: 3px 3px 5px black;
+  margin:15px;
+ 
+}
 .Intro_desc
 {
+  
+  
   position: relative;
   z-index: 5;
   margin-top: 10%;
-    float: right;
-    margin-right: 5%;
+  float: right;
+  margin-right: 5%;
   width: 32%;
   height: fit-content;
   /*background-color: #00232f;*/
@@ -154,7 +163,7 @@ height: 100%;
     position: relative;
     height: 30vh;
     width: 30vh;
-    background: url("../source/image/logo_svg.svg") no-repeat;
+    background: url("https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg") no-repeat;
 
     background-size: contain;
     filter: drop-shadow(0 0 25px rgb(195, 252, 255));

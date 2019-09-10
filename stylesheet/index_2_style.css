@@ -31,7 +31,7 @@
 
 
 .carousel-indicators #flight{
-    background: url("./../source/image/preflight_thumb8.png") no-repeat center;
+    background: url("https://ik.imagekit.io/1tz106e4j/source/image/preflight_thumb7_HEkte8_6f.png") no-repeat center;
     /*background-size: 73px 73px;*/
     background-size: 95%;
     -webkit-filter: grayscale(1);
@@ -40,14 +40,14 @@
 }
 .carousel-indicators #construction{
 
-    background: url("./../source/image/Reconstruction_thumb6.png") no-repeat center;
+    background: url("https://ik.imagekit.io/1tz106e4j/source/image/Reconstruction_rzI3NWji7d.png") no-repeat center;
     /*background-size: 90px 100px;*/
     background-size: 105% 110%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
 .carousel-indicators #analytic{
-    background: url("./../source/image/analytics_thumb9.png") no-repeat center;
+    background: url("https://ik.imagekit.io/1tz106e4j/source/image/analytics_thumb9_li3Vea_UdM.png") no-repeat center;
     /*background-size: 90px 90px;*/
     background-size: 95%;
     -webkit-filter: grayscale(1);
